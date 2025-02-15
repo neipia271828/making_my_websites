@@ -7,13 +7,71 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- ヘッダー -->
     <header>
-        <h1 class="fade-in">Pai314</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movie">映像</a></li>
+                <li><a href="#illustration">イラスト</a></li>
+                <li><a href="#programming">プログラム</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <button id="animateBtn">ボタンをクリック</button>
-        <div class="box"></div>
-    </main>
+
+    <!-- 自己紹介セクション -->
+    <section id="about">
+        <div class="overlay"></div>
+        <h2>About_me</h2>
+        <h1>Pai314</h1>
+        <p>こんにちは！πです。映像制作やプログラミング、イラストなど様々な作品を手がけています。</p>
+    </section>
+
+    <!-- Homeページ (スライダー) -->
+    <section id="home">
+        <div class="slider">
+            <div class="slide">
+                <img src="resized_images/resized_pi.png" alt="作品1">
+                <div class="caption">作品1</div>
+            </div>
+            <div class="slide">
+                <img src="resized_images/resized_deepdown.png" alt="作品2">
+                <div class="caption">作品2</div>
+            </div>
+            <div class="slide">
+                <img src="resized_images/resized_goodconection2.png" alt="作品3">
+                <div class="caption">作品3</div>
+            </div>
+            <div class = "slide">
+                <img src = "resized_images/resized_pop virus.png" alt = "作品4">
+                <div class = "caption">作品4</div>
+            </div>
+            <div class = "slide">
+                <img src = "resized_images/resized_REFLECTION artwork.png" alt = "作品5">
+                <div class = "caption">作品5</div>
+            </div>
+            <div class = "slide">
+                <img src = "resized_images/resized_SYNERGY.png" alt = "作品6">
+                <div class = "caption">作品6</div>
+            </div>
+            <div class = "slide">
+                <img src = "resized_images/resized_tofubeats TB's discography only mix | HIHATT 8TH ANNIVERSARY at SUPERNOVA KAWASAKI 20231105.png" alt = "作品5">
+                <div class = "caption">作品7</div>
+            </div>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <ul>
+            <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+        </ul>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
