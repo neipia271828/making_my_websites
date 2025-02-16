@@ -1,6 +1,6 @@
 let slideIndex = 0;
 let slideInterval;
-const slideDuration = 4500; // スライドの切り替え時間を設定（ミリ秒）
+const slideDuration = 100000; // スライドの切り替え時間を設定（ミリ秒）
 const buttonPadding = 40; // prev/next ボタンのパディング（左右合計）
 
 window.onload = function() {
